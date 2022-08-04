@@ -1,0 +1,48 @@
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.section.feature {
+  padding-bottom: 47px;
+}
+.section-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.feature-list {
+  display: flex;
+}
+
+.icon-feature {
+  border-radius: 4px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+  height: 120px;
+  padding: 25px 100px;
+}
+
+.feature-item {
+  width: 270px;
+  margin-right: 30px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.feature-title {
+  line-height: 1.14;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.feature-describe {
+  color: var(--paragraph-text-color);
+
+  font-weight: 400;
+  line-height: 1.71;
+
+  margin-top: 0;
+  margin-bottom: 0;
+}
