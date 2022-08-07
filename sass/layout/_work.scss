@@ -1,4 +1,4 @@
-.section.work {
+.work-section {
     padding-top: 47px;
 }
 
@@ -6,7 +6,7 @@
     display: flex;
 }
 
-.work-item {
+.work-list__item {
     width: 370px;
     margin-right: 30px;
 
@@ -15,7 +15,7 @@
     }
 }
 
-.work-img {
+.work-list__description {
     position: relative;
     display: flex;
     justify-content: center;
@@ -31,7 +31,7 @@
     }
 }
 
-.work-title {
+.work-list__title {
     color: var(--white-color);
     font-size: 14px;
     line-height: 1.14;
