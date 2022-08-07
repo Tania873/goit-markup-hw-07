@@ -1,32 +1,38 @@
-.footer {
+.page-footer {
     background-color: #2f303a;
 
     padding-top: 60px;
     padding-bottom: 60px;
 }
 
-.div {
+.page-footer__wrapper {
     display: flex;
 }
 
-.footer-address {
+.contact-list {
     margin-right: 70px;
 }
 
-.logo-footer {
+.logo_footer {
     color: var(--white-color);
-
-    font-family: Raleway, sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    text-decoration: none;
 
     display: inline-block;
     margin-bottom: 20px;
 }
 
-.address-city {
+.address-list__item {
+
+    &.city,
+    &.email {
+        margin-bottom: 9px;
+    }
+
+    &.phone {
+        margin: 0;
+    }
+}
+
+.address-list__city-address {
     color: var(--white-color);
 
     font-style: normal;
@@ -35,8 +41,8 @@
     text-decoration: none;
 }
 
-.address-mail,
-.address-phone {
+.address-list__email-link,
+.address-list__phone-link {
     color: rgba(255, 255, 255, 0.6);
 
     font-style: normal;
@@ -47,23 +53,14 @@
     transition: color var(--transition-dur-and-func);
 }
 
-.address .link:hover,
-.address .link:focus {
+.address-list__email-link_focus:hover,
+.address-list__email-link_focus:focus,
+.address-list__phone-link_focus:hover,
+.address-list__phone-link_focus:focus {
     color: var(--accent-colour);
 }
 
-.address-item {
-    &.city,
-    &.mail {
-        margin-bottom: 9px;
-    }
-
-    &.phone {
-        margin: 0;
-    }
-}
-
-.socials {
+.socials-title {
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
@@ -75,12 +72,12 @@
     padding-top: 12px;
 }
 
-.footer-list {
+.socials-list {
     display: flex;
     column-gap: 10px;
 }
 
-.footer-link {
+.socials-list__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,15 +94,15 @@
     }
 }
 
-.footer-item {
+.socials-list__icon {
     fill: #ffffff;
 }
 
-.footer-subscribe-form {
+.subscribe-form {
     margin-left: 93px;
 }
 
-.subscribe-title {
+.subscribe-form__title {
     color: var(--white-color);
 
     line-height: 1.14;
@@ -116,7 +113,7 @@
     margin-bottom: 20px;
 }
 
-.footer-subscribe-input {
+.subscribe-form__input {
     color: rgba(255, 255, 255, 0.6);
     background-color: rgba(33, 150, 243, 0);
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -132,7 +129,7 @@
     }
 }
 
-.subscribe-btn {
+.subscribe-form__btn {
     color: var(--white-color);
     background-color: var(--button-color);
 
@@ -153,11 +150,11 @@
     position: relative;
 }
 
-.subscribe-text {
+.subscribe-form__text {
     margin-right: 10px;
     
 }
-.subscribe-icon {
+.subscribe-form__icon {
     position: absolute;
     top: 13px;
     left: 148px;
