@@ -28,18 +28,7 @@
     max-width: 696px;
 }
 
-.hero__button {
-    color: var(--white-color);
-    background-color: var(--button-color);
-
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.06em;
-    cursor: pointer;
-
-    border-radius: 4px;
+.button_hero {
     padding: 10px 32px;
     min-width: 216px;
-    border: 0;
 }
