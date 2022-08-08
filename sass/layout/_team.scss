@@ -46,37 +46,3 @@
     margin: 0;
     margin-bottom: 16px;
 }
-
-.team-list__social-list {
-    display: flex;
-    justify-content: center;
-    column-gap: 10px;
-}
-
-.team-list__social-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background-color: rgb(255, 255, 255);
-
-    transition: background-color var(--transition-dur-and-func);
-
-    &:hover,
-    &:focus {
-        background-color: var(--accent-colour);
-    }
-}
-
-.team-list__social-icon {
-    fill: #afb1b8;
-
-    transition: fill var(--transition-dur-and-func);
-
-    .team-list__social-link:hover &,
-    .team-list__social-link:focus & {
-        fill: #ffffff;
-    }
-}
