@@ -704,12 +704,8 @@ body {
   color: #212121;
   background-color: #f5f4fa;
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.62;
-  cursor: pointer;
-  border-radius: 4px;
   padding: 6px 22px;
-  border: 0;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
